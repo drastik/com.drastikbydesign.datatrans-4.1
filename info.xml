@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<extension key="com.drastikbydesign.datatrans" type="payment">
+  <downloadUrl>http://github.com/downloads/drastik/civicrm_datatrans/com.drastikbydesign.datatrans-4.1.zip</downloadUrl>
+  <file>datatrans</file>
+  <name>DataTrans</name>
+  <description>DataTrans Payment Processor</description>
+  <urls>
+    <url desc="Main Extension Page">http://drastikbydesign.com/blog-entry/civicrm-datatrans-payment-processor</url>
+  </urls>
+  <license>AGPL</license>
+  <maintainer>
+    <author>Joshua Walker (drastik) - Drastik by Design</author>
+    <email>admin (at) drastikbydesign.com</email>
+  </maintainer>
+  <releaseDate>2012-08-30</releaseDate>
+  <version>1.0</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>4.1</ver>
+  </compatibility>
+  <comments>http://drastikbydesign.com/blog-entry/civicrm-datatrans-payment-processor</comments>
+  <typeInfo>
+   <userNameLabel>merchantId</userNameLabel>
+   <passwordLabel>HMAC</passwordLabel>
+   <signatureLabel></signatureLabel>
+   <subjectLabel></subjectLabel>
+   <urlSiteDefault>https://payment.datatrans.biz/upp/jsp/upStart.jsp</urlSiteDefault>
+   <urlApiDefault></urlApiDefault>
+   <urlRecurDefault></urlRecurDefault>
+   <urlSiteTestDefault>https://pilot.datatrans.biz/upp/jsp/upStart.jsp</urlSiteTestDefault>
+   <urlApiTestDefault></urlApiTestDefault>
+   <urlRecurTestDefault></urlRecurTestDefault>
+   <urlButtonDefault></urlButtonDefault>
+   <urlButtonTestDefault></urlButtonTestDefault>
+   <billingMode>notify</billingMode>
+   <isRecur>0</isRecur>
+   <paymentType>1</paymentType>
+  </typeInfo>
+  <civix>
+    <namespace>CRM/Datatrans</namespace>
+  </civix>
+</extension>
