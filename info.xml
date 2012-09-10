@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <extension key="com.drastikbydesign.datatrans" type="payment">
-  <downloadUrl>http://github.com/downloads/drastik/civicrm_datatrans/com.drastikbydesign.datatrans-4.1.zip</downloadUrl>
+  <downloadUrl>http://github.com/downloads/drastik/com.drastikbydesign.datatrans-4.1/com.drastikbydesign.datatrans-4.1.zip</downloadUrl>
   <file>datatrans</file>
   <name>DataTrans</name>
   <description>DataTrans Payment Processor</description>
